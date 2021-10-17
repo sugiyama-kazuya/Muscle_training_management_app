@@ -4,6 +4,10 @@
  * building robust, powerful web applications using React + Laravel.
  */
 
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+
 require('./bootstrap')
 
 /**
@@ -14,8 +18,4 @@ require('./bootstrap')
 
 require('./App')
 
-import React from "react";
-import ReactDOM from 'react-dom';
-import App from "./App";
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'))
