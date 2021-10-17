@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "standard",
+        "prettier",
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "printWidth": 120,
+                "tabWidth": 2,
+                "trailingComma": "all",
+                "bracketSpacing": true,
+                "singleQuote": true,
+                "semi": false
+            }
+        ]
+    }
+}
